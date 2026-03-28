@@ -1,0 +1,14 @@
+{
+    "entities": [
+      {
+        "name": "crypto",
+        "coins": ["bitcoin", "ethereum"],
+        "bronze_table": "workspace.crypto.bronze",
+        "silver_table": "workspace.crypto.silver",
+        "gold_tables": {
+          "daily": "workspace.crypto.gold_daily",
+          "monthly": "workspace.crypto.gold_monthly"
+        }
+      }
+    ]
+  }
