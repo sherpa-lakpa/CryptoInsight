@@ -1,4 +1,5 @@
 import requests
+import time
 
 
 def fetch_crypto_data(coins):

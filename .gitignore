@@ -4,3 +4,4 @@ silver/
 .DS_Store
 .ipynb_checkpoints/
 venv/
+spark-warehouse/
