@@ -9,6 +9,15 @@
           "daily": "workspace.cryptoinsight.gold_daily",
           "monthly": "workspace.cryptoinsight.gold_monthly"
         }
+      },
+      {
+        "name": "crypto_stream",
+        "coins": ["bitcoin"],
+        "bronze_table": "workspace.cryptoinsight.bronze_stream",
+        "silver_table": "workspace.cryptoinsight.silver_stream",
+        "gold_tables": {
+          "minute": "workspace.cryptoinsight.gold"
+        }
       }
     ]
   }
