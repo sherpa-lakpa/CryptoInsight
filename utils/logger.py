@@ -2,7 +2,7 @@ import logging
 import os
 from datetime import datetime
 
-def get_logger(name="pipeline", log_dir="/Workspace/Shared/logs"):
+def get_logger(name="pipeline", log_dir="/Volumes/workspace/cryptoinsight/logs/"):
     logger = logging.getLogger(name)
 
     if not logger.handlers:
